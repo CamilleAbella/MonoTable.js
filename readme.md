@@ -50,7 +50,9 @@ console.log(table.toString())
 ║        The Title !       ║
 ╠═════════╦════╦═══════════╣
 ║  Jack   ║ 42 ║  Sealand  ║
+╠═════════╬════╬═══════════╣
 ║ Patrick ║ 25 ║  France   ║
+╠═════════╬════╬═══════════╣
 ║  David  ║ 32 ║ Australia ║
 ╚═════════╩════╩═══════════╝
 ```
@@ -80,11 +82,11 @@ const table = new MonoTable({
 console.log(table.toString())
 ```
 ```
-╔══════════════════════════╗
-║        The Title !       ║
-╠═════════╦════╦═══════════╣
-║    Jack ║ 42 ║ Sealand   ║
-║ Patrick ║ 25 ║ France    ║
-║   David ║ 32 ║ Australia ║
-╚═════════╩════╩═══════════╝
+┌─────────┬────┬───────────┐
+│    Jack │ 42 │ Sealand   │
+├─────────┼────┼───────────┤
+│ Patrick │ 25 │ France    │
+├─────────┼────┼───────────┤
+│   David │ 32 │ Australia │
+└─────────┴────┴───────────┘
 ```
